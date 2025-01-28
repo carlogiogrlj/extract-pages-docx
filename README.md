@@ -13,7 +13,7 @@ Sub SavePagesWithHeading1()
 
     ' Initialize variables
     Set doc = ActiveDocument
-    savePath = "C:\Users\Carlo\Desktop\Pjesmarice\Zaja pjesmarica\" ' Specific folder path
+    savePath = "C:\select\a\folder" ' Specific folder path
 
     ' Create output folder if it doesn't exist
     On Error Resume Next
