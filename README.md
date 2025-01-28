@@ -1,7 +1,7 @@
 # extract-pages-docx
 A Visual Basic for Applications (VBA) script for extracting all the pages that start with a specific font style from a word document.
 
-'''
+```
 Sub SavePagesWithHeading1()
     Dim doc As Document
     Dim pageDoc As Document
@@ -70,4 +70,4 @@ Sub SavePagesWithHeading1()
     ' Notify the user
     MsgBox "Pages saved successfully to " & savePath, vbInformation
 End Sub
-'''
+```
